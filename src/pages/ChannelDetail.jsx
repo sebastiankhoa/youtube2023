@@ -28,9 +28,9 @@ const ChannelDetail = () => {
 				<Image alt="wallpaper" src="\image\wallpaper.jpg" h={{ base: "200px", xl: "400px" }} w="full" objectFit="cover" />
 			</Box>
 			<Container maxW="container.lg">
-				<Flex align="center" justify="space-between" w="full" mt="2" px="2">
+				<Flex align="center" justify="space-between" w="full" mt="2" px="2" direction={{ base: "column", md: "row" }}>
 					<ChannelCard data={channelData} />
-					<Flex align="center" gap="2">
+					<Flex align="center" gap="2" mt={{ base: "5", md: "unset" }}>
 						<Button rounded="20px" colorScheme="blue">
 							Join
 						</Button>

@@ -69,8 +69,10 @@ const VideoDetail = () => {
 								<Text>{parseInt(viewCount).toLocaleString("en-US")} Views</Text>
 								<Text>Ngày đăng : {publishedAt.split("T")[0]}</Text>
 							</Flex>
-							<Box>
-								<Text>{description}</Text>
+							<Box mt="2">
+								<Text fontSize="10pt" color="gray.400">
+									{description}
+								</Text>
 							</Box>
 						</Box>
 					</Box>
